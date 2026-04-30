@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+
+<h2>💬 Bandeja de mensajes</h2>
+
+<a class="btn btn-primary mb-3" href="{% url 'enviar' %}">Nuevo mensaje</a>
+
+<div class="card p-3">
+
+{% for m in mensajes %}
+
+    <div style="margin-bottom: 10px; padding:10px; border-radius:10px;
+        {% if m.remitente == user %}
+            background-color:#0d6efd; text-align:right;
+        {% else %}
+            background-color:#444;
+        {% endif %}
+    ">
+        <strong>{{ m.remitente }}</strong><br>
+        {{ m.contenido }}<br>
+        <small>{{ m.fecha }}</small>
+    </div>
+
+{% empty %}
+    <p>No hay mensajes aún</p>
+{% endfor %}
+
+</div>
+
+{% endblock %}
