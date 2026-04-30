@@ -6,7 +6,7 @@ LM Profesionales es una aplicación web desarrollada en Django que simula un blo
 
 La plataforma permite la gestión de publicaciones, autenticación de usuarios, perfiles personalizados y un sistema de mensajería interna entre usuarios.
 
----
+----------------------------------------------------------------------
 
 ## 🚀 Funcionalidades
 
