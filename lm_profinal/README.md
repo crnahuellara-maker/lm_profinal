@@ -52,7 +52,7 @@ La plataforma permite la gestión de publicaciones, autenticación de usuarios, 
 ## ⚙️ Instalación y ejecución
 
 1. Clonar el repositorio:
-git clone https://github.com/tuusuario/tu-repo.git
+git clone https://github.com/Ccrnahuellara-maker/lm_profinal.git
 
 
 2. Crear entorno virtual:
@@ -83,4 +83,4 @@ Contador | MBA | Data Science aplicada
 
 ## 🎥 Video demostración
 
-(agregar link del video una vez subido)
+(https://drive.google.com/file/d/1x1rOXjOlB0QPO_O-6K2Xh_q_i_1gAARM/view)
