@@ -85,4 +85,3 @@ Contador | MBA | Data Science aplicada
 https://drive.google.com/file/d/1x1rOXjOlB0QPO_O-6K2Xh_q_i_1gAARM/view?usp=sharing
 
 
-(agregar link del video una vez subido)
