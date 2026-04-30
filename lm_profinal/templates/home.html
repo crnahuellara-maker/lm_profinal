@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contenido %}
+
+<div class="text-center">
+
+    <img src="{% static 'logo.png' %}" width="120" class="mb-4">
+
+    <h1>LM Profesionales</h1>
+
+    <p class="lead">
+        Soluciones contables y financieras con visión estratégica.
+    </p>
+
+</div>
+
+<hr>
+
+<div class="row text-center mt-4">
+
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h4>📊 Servicios Contables</h4>
+            <p>Liquidación de impuestos, balances y asesoramiento integral.</p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h4>📈 Data Science</h4>
+            <p>Análisis de datos para mejorar decisiones empresariales.</p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h4>💼 Consultoría</h4>
+            <p>Estrategia financiera con enfoque en crecimiento.</p>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
